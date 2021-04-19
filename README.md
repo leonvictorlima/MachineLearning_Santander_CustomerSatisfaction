@@ -115,10 +115,35 @@ df.var15.describe()
 df.var15.value_counts()
 ```
 <h1 align="center">
-  <img src="https://github.com/leonvictorlima/MachineLearning_Santander_CustomerSatisfaction/blob/main/images/describe2.JPG"  width="800"/>
+  <img src="images/target_size.JPG"  width="800"/>
 </h1>
 
 
 ### Plots
 
 Creating plots is the best way to understanding data behaviors.
+
+```python
+# Thinking about build plots, we must have one variables list to do it.
+
+columns_list = list(df.columns)
+
+# taking out "TARGET" and "ID" variables
+
+columns_list.pop(-1) # TARGET
+columns_list.pop(0) # ID
+```
+
+Using set of plots below, it is possible realize that variables wich begins with "delta" or "ind" have two values: 0 or 1. On the other hand, several variables showed has outliers as well as are not in normal distribuition.
+
+```python
+
+for items in columns_list:
+    fig, ax = plt.subplots(1,2, figsize=(8, 4))
+    sns.boxplot(df[items], orient = 'v', ax=ax[0])
+    sns.distplot(df[items], ax=ax[1])
+    fig.tight_layout()
+    
+```
+
+
