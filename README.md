@@ -1,4 +1,4 @@
-<h1 align="center">Project: Kaggle Challenge - Santander - Customer Satisfaction: 2016</h1>
+<h1 align="center">Project: Kaggle Challenge - Santander - Customer Satisfaction</h1>
 
 <h1 align="center">
   <img src="https://github.com/leonvictorlima/MachineLearning_Santander_CustomerSatisfaction/blob/main/images/kagglesantander.png"  width="800"/>
