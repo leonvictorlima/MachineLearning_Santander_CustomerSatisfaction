@@ -38,7 +38,7 @@ The complete template code is provided in the `Santander_CustomerSatisfaction_v1
 
 The dataset is available in `train.csv`, `test.csv`, `df3.csv` and `df4.csv` files. Please, pay attention that some codes has already been executed, maybe additional functionality will be necessary to successfully complete the project. Please feel free to enjoy and explore this project.
 
-** In case of the `Santander_CustomerSatisfaction_v1.ipynb` notebook file does not open. Please, copy this link (https://github.com/leonvictorlima/MachineLearning_Santander_CustomerSatisfaction/blob/main/Santander_CustomerSatisfaction_v1.ipynb) and paste it on https://nbviewer.jupyter.org/ to get access for it cotent.
+** In the case of the `Santander_CustomerSatisfaction_v1.ipynb` notebook file does not open. Please, copy this link (https://github.com/leonvictorlima/MachineLearning_Santander_CustomerSatisfaction/blob/main/Santander_CustomerSatisfaction_v1.ipynb) and paste it on https://nbviewer.jupyter.org/ to get access for it content.
 
 ## Code Execution
 
