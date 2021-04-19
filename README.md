@@ -96,5 +96,29 @@ df.select_dtypes(include=[object]).sum()
 df.describe()
 ```
 <h1 align="center">
-  <img src="https://github.com/leonvictorlima/MachineLearning_Santander_CustomerSatisfaction/blob/main/images/describe2.JPG"  width="400"/>
+  <img src="https://github.com/leonvictorlima/MachineLearning_Santander_CustomerSatisfaction/blob/main/images/describe2.JPG"  width="800"/>
 </h1>
+
+As the dataset is too big, it is hard to find out all issues. For that reason, it is important at this moment to pay attention at Target , Age (var15) variables and realize that all values are not in the same scale.
+
+For the Target value, we can see the number of results are different for each one. So, whether use the data this way predictions problems will appear.
+
+```python
+# Grouping dataset by Target variable;
+
+df.groupby('TARGET').size()
+
+# Observing var15 (age) variable with more attention. 
+
+df.var15.describe()
+
+df.var15.value_counts()
+```
+<h1 align="center">
+  <img src="https://github.com/leonvictorlima/MachineLearning_Santander_CustomerSatisfaction/blob/main/images/describe2.JPG"  width="800"/>
+</h1>
+
+
+### Plots
+
+Creating plots is the best way to understanding data behaviors.
