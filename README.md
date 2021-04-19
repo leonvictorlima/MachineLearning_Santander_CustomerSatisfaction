@@ -1,17 +1,13 @@
 <h1 align="center">Kaggle Challenge - Machine Learning Santander Customer Satisfaction (In Development)</h1>
 
 <h1 align="center">
-  <img src="https://github.com/leonvictorlima/MachineLearning_Santander_CustomerSatisfaction/blob/main/images/kagglesantander.png"  width="500"/>
+  <img src="https://github.com/leonvictorlima/MachineLearning_Santander_CustomerSatisfaction/blob/main/images/kagglesantander.png"  width="800"/>
 </h1>
 
 <a name="introduction"></a>
 # Introduction
 
-### Kaggle Challenge
-
-Related to Kaggle analysis for Santander Bank satisfaction client;
-
-### Santander - Customer Satisfaction: 2016
+### Kaggle Challenge - Santander - Customer Satisfaction: 2016
 
 This is part of Kaggle challenge referred to identify customers satisfaction level while they are part of the bank. The main point is to evaluate their satisfaction and prevent leaving before it occurs.
 
@@ -51,10 +47,54 @@ Contents table
   The dataset is provided by Kaggle's webpage.
   
 ```python
+from pandas import read_csv
+
 df = read_csv("C:/train.csv", sep = ',')
 ```
 <a name="exploratory-analysis"></a> 
 ## 3) Exploratory Analysis:
 
-As part of any project the analysis of dataset must be executed in order to evaluate and getting familiar with data inserted in it.
+As part of any project, the analysis of dataset must be executed in order to evaluate and getting familiar with data inserted in it.
 
+```python
+# import libraries
+
+import pandas as pd
+import numpy as np
+from scipy import stats
+import matplotlib.pyplot as plt
+import warnings
+warnings.filterwarnings('ignore')
+%matplotlib inline
+
+# Head of dataset
+
+df.head()
+
+# dataset's dimmension 
+df.shape
+
+df.dtypes
+
+# NA values?
+
+df.isnull().values.any()
+```
+
+### We must have in mind, any changes made in training dataset have to be applied to test dataset.
+
+```python
+# In the dataset description provided by Kaggle is that only numeric variables are available, we must have sure tough.
+# Then, Exist strings?
+
+df.select_dtypes(include=[object]).sum()
+
+[df[items] for items in df if '' in df[items]]
+
+# Describe values
+
+df.describe()
+```
+<h1 align="center">
+  <img src="https://github.com/leonvictorlima/MachineLearning_Santander_CustomerSatisfaction/blob/main/images/kagglesantander.png"  width="800"/>
+</h1>
