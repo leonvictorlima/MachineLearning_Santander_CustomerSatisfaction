@@ -96,5 +96,5 @@ df.select_dtypes(include=[object]).sum()
 df.describe()
 ```
 <h1 align="center">
-  <img src="https://github.com/leonvictorlima/MachineLearning_Santander_CustomerSatisfaction/blob/main/images/kagglesantander.png"  width="800"/>
+  <img src="https://github.com/leonvictorlima/MachineLearning_Santander_CustomerSatisfaction/blob/main/images/describe2.JPG"  width="400"/>
 </h1>
