@@ -34,13 +34,13 @@ If you do not have python installed yet, please access [Anaconda](https://anacon
 
 ## Code
 
-The principal template code is provided in the `Santander_CustomerSatisfaction.ipynb` notebook file.
+The principal template code is provided in the `Principal_Santander_CustomerSatisfaction.ipynb` notebook file.
 
 It is also provided the python files which are divided into: `#Santander_CustomerSatisfaction_ExploratoryAnalysis.py`,`#[1] Santander_CustomerSatisfaction_ML_Attempt01_SMOTE_StandardScaler_GaussianNB.py`, `#[2] Santander_CustomerSatisfaction_ML_Attempt02_SMOTE_StandardScaler_LogisticRegression.py`, `#[3] Santander_CustomerSatisfaction_ML_Attempt03_StandardScaler_CrossValidation_GaussianNB.py`, `#[4] Santander_CustomerSatisfaction_ML_Attempt04_SMOTE_StandardScaler_CrossValidation_GaussianNB.py`, `#[5] Santander_CustomerSatisfaction_ML_Attempt05_StandardScaler_CrossValidation_LogisticRegression.py`, `#[6] Santander_CustomerSatisfaction_ML_Attempt06_SMOTE_StandardScaler_CrossValidation_LogisticRegression.py`, `#[7] Santander_CustomerSatisfaction_ML_Attempt07_SMOTE_StandardScaler_CrossValidation_LogisticRegression_AnotherWay.py`, `#[8] Santander_CustomerSatisfaction_ML_Attempt08_SMOTE_MaxMinScaler_PCA_CrossValidation_MachineLearningModels.py`, `#[9] Santander_CustomerSatisfaction_ML_Attempt09_StandardScaler_CrossValidation_MachineLearningModels.py`, `#[10] Santander_CustomerSatisfaction_ML_Attempt10_MaxMinScaler_PCA_CrossValidation_MachineLearningModels.py`. 
 
 The dataset is available in `train.csv`, `test.csv`, `df3.csv` and `df4.csv` files. Please, pay attention that some codes has already been executed, maybe additional functionality will be necessary to successfully complete the project. Please feel free to enjoy and explore this project.
 
-** In the case of the `Santander_CustomerSatisfaction.ipynb` notebook file does not open. Please, copy this link (https://github.com/leonvictorlima/MachineLearning_Santander_CustomerSatisfaction/blob/main/Santander_CustomerSatisfaction_v1.ipynb) and paste it on https://nbviewer.jupyter.org/ to get access for it content.
+** In the case of the `Principal_Santander_CustomerSatisfaction.ipynb` notebook file does not open. Please, copy this link (https://github.com/leonvictorlima/MachineLearning_Santander_CustomerSatisfaction/blob/main/Santander_CustomerSatisfaction_v1.ipynb) and paste it on https://nbviewer.jupyter.org/ to get access for it content.
 
 ## Code Execution
 
