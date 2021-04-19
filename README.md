@@ -118,7 +118,6 @@ df.var15.value_counts()
   <img src="images/target_size.JPG"  width="800"/>
 </h1>
 
-
 ### Plots
 
 Creating plots is the best way to understanding data behaviors.
@@ -142,8 +141,9 @@ for items in columns_list:
     fig, ax = plt.subplots(1,2, figsize=(8, 4))
     sns.boxplot(df[items], orient = 'v', ax=ax[0])
     sns.distplot(df[items], ax=ax[1])
-    fig.tight_layout()
-    
+    fig.tight_layout()  
 ```
-
+<h1 align="center">
+  <img src="images/variables_plot.JPG"  width="800"/>
+</h1>
 
