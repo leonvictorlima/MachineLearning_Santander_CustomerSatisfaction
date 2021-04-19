@@ -147,3 +147,17 @@ for items in columns_list:
   <img src="images/variables_plot.JPG"  width="800"/>
 </h1>
 
+### Correlation between variables 
+
+It is crucial for data projects to determine the correlation between its features. Following this dataset and its enormous numbers of variables, for that reason, estimate and dive deeply into its variables correlation with Target variable is a fundamental matter to reduce dimensionality and get to how they are connected.
+
+```python
+
+# Creating correlation 
+
+corr=df.corr()
+
+# Analyzing its correlations
+
+corr.TARGET.sort_values(ascending = False)
+```
